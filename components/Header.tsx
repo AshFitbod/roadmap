@@ -8,14 +8,14 @@ export default function Header() {
       <div className="flex justify-center">
         <img
           src={resolvedTheme === 'light' ? '/logo-light.svg' : '/logo-dark.svg'}
-          alt="Upstash"
+          alt="fitbod"
           width={140}
         />
       </div>
 
       <div className="mt-6 text-center text-dimmed">
-        <p>Help us by voting our roadmap.</p>
-        <p>Vote up the features you want to see in the next release.</p>
+        <p>Help us figure out what features to build out next!</p>
+        <p>Vote up the features you want to see in the coming year.</p>
       </div>
     </header>
   )

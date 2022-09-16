@@ -1,3 +1,5 @@
+
+
 export default function CardRelease({ item }) {
   const { score, title } = item
 
